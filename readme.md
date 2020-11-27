@@ -62,9 +62,32 @@ import './index.css';
 
 ### What Is React?
 
-xxx
+`React.Component` includes a `render` that displays the component and will re-render on an update.
+
+```react
+class ShoppingList extends React.Component {
+  render() {
+    return (
+      <div className="shopping-list">
+        <h1>Shopping List for {this.props.name}</h1>
+        <ul>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+          <li>Oculus</li>
+        </ul>
+      </div>
+    );
+  }
+}
+
+// Example usage: <ShoppingList name="Mark" />
+```
+
+A Component can also take a `prop`, in this case a `name`.
 
 ### Inspecting the Starter Code
+
+xxx
 
 ### Passing Data Through Props
 
