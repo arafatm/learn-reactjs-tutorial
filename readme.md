@@ -28,7 +28,7 @@ https://reactjs.org/tutorial/tutorial.html
 
 ### Local Development Environment
 
-xxx
+:shipit: $ [`npx create-react-app tictactoe`](https://github.com/arafatm/learn-reactjs-tutorial/commit/bcecaf55349d8bf25dc24332bd5dd85983040dcc)
 
 ### Help, I'm Stuck!
 
