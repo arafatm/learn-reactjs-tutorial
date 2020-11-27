@@ -54,11 +54,15 @@ import './index.css';
 
 ### Help, I'm Stuck!
 
-xxx
+[Where To Get Support – React](https://reactjs.org/community/support.html)
+
+[Reactiflux chat on Discord](https://discord.com/channels/102860784329052160/377580704722190347)
 
 ## Overview
 
 ### What Is React?
+
+xxx
 
 ### Inspecting the Starter Code
 
