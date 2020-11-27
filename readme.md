@@ -30,9 +30,31 @@ https://reactjs.org/tutorial/tutorial.html
 
 :shipit: $ [`npx create-react-app tictactoe`](https://github.com/arafatm/learn-reactjs-tutorial/commit/bcecaf55349d8bf25dc24332bd5dd85983040dcc)
 
-xxx
+[:ship: b7a4f46](https://github.com/arafatm/learn-reactjs-tutorial/commit/b7a4f46)
+Clean `src/` folder to start clean
+```bash
+rm -rf src/*
+```
+
+[:ship: 4cefb50](https://github.com/arafatm/learn-reactjs-tutorial/commit/4cefb50)
+initial react files `index.css` & `index.js` in `src/`
+```bash
+touch src/index.css src/index.js
+```
+
+[:ship: 376db93](https://github.com/arafatm/learn-reactjs-tutorial/commit/376db93)
+Initial React setup in `index.js`
+```react
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+```
+
+[:ship: `npm start`](http://localhost:3000/)
 
 ### Help, I'm Stuck!
+
+xxx
 
 ## Overview
 
