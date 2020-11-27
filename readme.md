@@ -87,6 +87,30 @@ A Component can also take a `prop`, in this case a `name`.
 
 ### Inspecting the Starter Code
 
+[:ship: e030091](https://github.com/arafatm/learn-reactjs-tutorial/commit/e030091)
+Initial game setup with Components: `game`, `board`, `square`
+
+[:ship: 100f5e4](https://github.com/arafatm/learn-reactjs-tutorial/commit/100f5e4)
+Passing props
+
+```react
+class Board extends React.Component {
+  renderSquare(i) {
+    return <Square value={i} />;
+  }
+}
+
+class Square extends React.Component {
+  render() {
+    return (
+      <button className="square">
+        {this.props.value}
+      </button>
+    );
+  }
+}
+```
+
 xxx
 
 ### Passing Data Through Props
