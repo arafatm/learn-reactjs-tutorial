@@ -26,9 +26,9 @@ https://reactjs.org/tutorial/tutorial.html
 
 ## Setup for the Tutorial
 
-### Option 1: Write Code in the Browser
+### Local Development Environment
 
-### Option 2: Local Development Environment
+xxx
 
 ### Help, I'm Stuck!
 
