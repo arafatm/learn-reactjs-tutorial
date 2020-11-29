@@ -44,7 +44,7 @@ touch src/index.css src/index.js
 
 [:ship: 376db93](https://github.com/arafatm/learn-reactjs-tutorial/commit/376db93)
 Initial React setup in `index.js`
-```react
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -64,7 +64,7 @@ import './index.css';
 
 `React.Component` includes a `render` that displays the component and will re-render on an update.
 
-```react
+```jsx
 class ShoppingList extends React.Component {
   render() {
     return (
@@ -90,10 +90,12 @@ A Component can also take a `prop`, in this case a `name`.
 [:ship: e030091](https://github.com/arafatm/learn-reactjs-tutorial/commit/e030091)
 Initial game setup with Components: `game`, `board`, `square`
 
+### Passing Data Through Props
+
 [:ship: 100f5e4](https://github.com/arafatm/learn-reactjs-tutorial/commit/100f5e4)
 Passing props
 
-```react
+```jsx
 class Board extends React.Component {
   renderSquare(i) {
     return <Square value={i} />;
@@ -111,11 +113,21 @@ class Square extends React.Component {
 }
 ```
 
-xxx
-
-### Passing Data Through Props
-
 ### Making an Interactive Component
+
+[:ship: 4e3eb00](https://github.com/arafatm/learn-reactjs-tutorial/commit/4e3eb00)
+Simple event handler `onClick`
+```jsx
+<button className="square" onClick={function() { alert('click'); }}>
+```
+
+[:ship: 6afe363](https://github.com/arafatm/learn-reactjs-tutorial/commit/6afe363)
+Using arrow fn
+```jsx
+<button className="square" onClick={() => alert('click')}>
+```
+
+xxx
 
 ### Developer Tools
 
